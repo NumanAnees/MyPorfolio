@@ -1,0 +1,7 @@
+img-hover {
+  height: 300px !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  min-height: 300px !important;
+  background-image: url(images/github2.png) !important;
+}
