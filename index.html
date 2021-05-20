@@ -875,7 +875,7 @@
                                 </div>
 
                                 <button type="submit" name="submit" id="submit" value="Submit"
-                                    class="btn btn-default">Send Message</button>
+                                    class="btn btn-default" onclick=submitForm() >Send Message</button>
                                 <!-- Send Button -->
 
                             </form>
@@ -934,7 +934,21 @@
             Show_Btn[0].innerText= flag ? "Show less" : "Show More";
             flag = !flag;    
      }
-    
+    //form submit
+    const submit = document.getElementById("submit");
+    const   name = document.getElementById("InputName");
+    const   email = document.getElementById("InputEmail");
+    const   subject = document.getElementById("InputSubject");
+    const   message = document.getElementById("InputMessage");
+
+    function submitForm(){
+        alert(`Thanks For Contacting ${name.value} 😃`);
+        name.value = "";
+        email.value = "";
+        subject.value = "";
+        message.value = "";
+
+    }
     </script>
     <!-- css -->
 
