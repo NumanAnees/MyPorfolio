@@ -855,9 +855,10 @@
                                         </div>
                                     </div>
                                 </div>
-
+                                  
                                 <button type="submit" name="submit" id="submit" value="Submit"
-                                    class="btn btn-default" onclick=submitForm() >Send Message</button>
+                                    class="btn btn-default" onclick=submitForm() ><a
+                            href="https://api.whatsapp.com/send?phone=923310145083&text=Hello%20Numan%20,%20How%20are%20You%20?" style="color: #ecece6;">  Send Message</a></button>
                                 <!-- Send Button -->
 
                             </form>
@@ -922,15 +923,15 @@
     const   subject = document.getElementById("InputSubject");
     const   message = document.getElementById("InputMessage");
 
-    function submitForm(){
-        alert(`Thanks for contacting ${name.value} 😃`);
-        name.value = "";
-        email.value = "";
-        subject.value = "";
-        message.value = "";
+    // function submitForm(){
+    //     alert(`Thanks for contacting ${name.value} 😃`);
+    //     name.value = "";
+    //     email.value = "";
+    //     subject.value = "";
+    //     message.value = "";
 
-    }
-    </script>
+    // }
+    // </script>
     <!-- css -->
 
 
